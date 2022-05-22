@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: midnightblue;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    background-color: midnightblue;
+    padding: 8px;
+    width: 100vw;
+}
+
+.city {
+    background-color: plum;
+    padding: 8px;
+    margin-bottom:0px;
+    width: 50vw;
+   }
+   
+   #comparison {
+    background-color:darkmagenta;
+    color: white;
+    border-radius:16px;
+    padding: 8px;
+    margin-top: 32px;
+    width: 50vw;
+   }
+
+  #difference {
+      background-color: navy;
+      color: white;
+      border-radius: 16px;
+      padding: 8px;
+      margin-top: 16px;
+      width: 50vw;
+  }
